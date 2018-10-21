@@ -4,3 +4,10 @@ body{
     font-family: 'Roboto', Regular;
 }
 
+.open{
+    top: 150px !important;
+    left: 250px !important;
+    -webkit-box-shadow: 0px 0px 40px -2px #000000; 
+    box-shadow: 0px 0px 40px -2px #000000;
+}
+

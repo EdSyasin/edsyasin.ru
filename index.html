@@ -9,7 +9,8 @@
   </head>
   <body>
     <div id="app">
-      <router-view></router-view>
+      <Men></Men>
+      <router-view :class="{ open: menuOpen}"></router-view>
     </div>
     <script src="/dist/build.js"></script>
   </body>
