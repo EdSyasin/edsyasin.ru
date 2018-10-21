@@ -12,6 +12,7 @@ Vue.use(Vuex);
 
 //components
 import Men from './components/Menu.vue'
+import menbtn from './components/MenuBtn.vue'
 
 //Views
 import Main from './views/main/main.vue'
@@ -42,7 +43,7 @@ new Vue({
   el: '#app',
   router: router,
   components:{
-    Men
+    Men, menbtn
   },
   data(){
     return{

@@ -6,8 +6,26 @@ body{
 
 .open{
     top: 150px !important;
-    left: 250px !important;
+    left: 50vw !important;
     -webkit-box-shadow: 0px 0px 40px -2px #000000; 
     box-shadow: 0px 0px 40px -2px #000000;
 }
 
+#menu-btn{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 50px;
+}
+
+@media (min-width: 1440px){
+    .open{
+        left: 20vw !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .open{
+        left: 30vw !important;
+    }
+}

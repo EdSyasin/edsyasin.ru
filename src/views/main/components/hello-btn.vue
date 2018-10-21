@@ -1,15 +1,15 @@
 <template>
-    <div @click="goto(page)" id="btn">
+    <a id="btn">
         {{ text }}
         <div id="bg">
 
         </div>
-    </div>
+    </a>
 </template>
 
 <script>
 export default {
-    props:['text', 'page'],    
+    props:['text'],    
     methods:{
             goto (page) {
                 this.$router.push(page);
@@ -25,6 +25,7 @@ export default {
 }
 
 #btn{
+    text-decoration: none;
     position: relative;
     height: 70px;
     width: 300px;
@@ -37,6 +38,7 @@ export default {
     color: #00a0ae;
     cursor: pointer;
     overflow: hidden;
+    z-index: 1;
 }
 
 #bg{
