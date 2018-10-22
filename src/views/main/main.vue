@@ -27,9 +27,6 @@ export default {
         justify-content: center;
         align-items: center;
         position: relative;
-        left: 0px;
-        top: 0px;
-        transition: 0.3s;
     }
 
     .container{

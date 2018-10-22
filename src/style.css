@@ -4,6 +4,12 @@ body{
     font-family: 'Roboto', Regular;
 }
 
+.content{
+    transition: 0.3s;
+    left: 0px;
+    top: 0px;
+}
+
 .open{
     top: 150px !important;
     left: 50vw !important;
