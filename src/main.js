@@ -25,7 +25,7 @@ var router = new VueRouter({
     { path: '/', name: 'main', component: Main},
     { path: '/aboutme', name: 'aboutme', component: AboutMe}
   ]
-})
+});
 
 const store = new Vuex.Store({
   state: {
@@ -41,7 +41,7 @@ const store = new Vuex.Store({
       state.count++
     }
   }
-})
+});
 
 new Vue({
   el: '#app',
@@ -55,4 +55,4 @@ new Vue({
     }
   }
   
-})
+});
