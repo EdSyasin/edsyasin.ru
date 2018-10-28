@@ -51,7 +51,7 @@ new Vue({
   },
   data(){
     return{
-      menuOpen: false
+        menuOpen: false
     }
   }
   
