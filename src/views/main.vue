@@ -1,15 +1,15 @@
 <template>
     <div id="content">
         <parallax-container class="horizontal-card container">
-            <parallax-element class="background-image" :parallaxStrength="-50" :type="'translation'">     
-            </parallax-element>            
+            <parallax-element class="background-image" :parallaxStrength="-50" :type="'translation'">
+            </parallax-element>
         </parallax-container>
         <hellocard></hellocard>
     </div>
 </template>
 
 <script>
-import hellocard from './components/hellocard.vue'
+import hellocard from '../components/hellocard.vue'
 
 export default {
     components:{

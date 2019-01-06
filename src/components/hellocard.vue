@@ -67,6 +67,9 @@
 
     #front{
         background: white;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2em);
+        opacity: 2%;
     }
 
     #back{

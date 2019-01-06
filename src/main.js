@@ -17,8 +17,8 @@ import Men from './components/Menu.vue'
 import menbtn from './components/MenuBtn.vue'
 
 //Views
-import Main from './views/main/main.vue'
-import AboutMe from './views/aboutme/aboutme.vue'
+import Main from './views/main.vue'
+import AboutMe from './views/aboutme.vue'
 
 var router = new VueRouter({
   routes:[
